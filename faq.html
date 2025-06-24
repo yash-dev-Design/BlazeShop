@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+   <link rel="shortcut icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛍️</text></svg>"
+        type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQs</title>
+  <style>
+    :root {
+      --primary-color: #03b8ff;
+            --accent-color: #1d87ff;
+      --text-color: #333;
+      --bg-color: #f8f5f0;
+      --card-bg: #ffffff;
+      --header-bg: #2c2c2c;
+      --header-text: #f8f5f0;
+      --footer-bg: #2c2c2c;
+      --footer-text: #f8f5f0;
+      --border-color: #d1c7b7;
+      --box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: Arial, sans-serif;
+      transition: var(--transition);
+      line-height: 1.6;
+    }
+
+    header,
+    footer {
+      background-color: var(--header-bg);
+      color: var(--header-text);
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: var(--card-bg);
+      box-shadow: var(--box-shadow);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 1rem;
+      background: #f1f7ff;
+      padding: 1rem;
+      border-left: 4px solid var(--primary-color);
+      border-radius: 8px;
+    }
+
+    strong {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+      color: var(--primary-color);
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>FAQs</h1>
+  </header>
+
+  <main>
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li>
+        <strong>How to track my order?</strong>
+        Use the order tracking link sent to your email.
+      </li>
+      <li>
+        <strong>What payment methods are supported?</strong>
+        We accept UPI, PayPal, GPay, PhonePe, Paytm, Razorpay.
+      </li>
+      <li>
+        <strong>Can I cancel an order?</strong>
+        Yes, within 24 hours of placing the order.
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 trustiDash. All rights reserved.
+  </footer>
+</body>
+
+</html>
